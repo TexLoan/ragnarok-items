@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Items</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        select,
+        button {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Filtrer les Items</h1>
+
+    <label for="slots">Nombre de slots :</label>
+    <select id="slots">
+        <option value="0">0</option>
+        <option value="1">>1</option>
+        <option value="2">>2</option>
+        <option value="3">>3</option>
+        <option value="4">>4</option>
+    </select>
+
+    <label for="type">Type :</label>
+    <select id="type">
+        <option value="all">Tous</option>
+    </select>
+
+    <label for="search">Recherche (Name ou ID) :</label>
+    <input type="text" id="search" placeholder="Ex: Guard, 2101" oninput="applyFilter()" />
+
+    <button onclick="applyFilter()">Filtrer</button>
+
+    <table id="itemsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Buy</th>
+                <th>Sell</th>
+                <th>Weight</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Slots</th>
+                <th>Refineable</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div>
+        <button onclick="prevPage()">Précédent</button>
+        <span id="pageInfo"></span>
+        <button onclick="nextPage()">Suivant</button>
+    </div>
+
+    <script>
+        let items = [];
+        let filteredItems = [];
+        let currentPage = 1;
+        const itemsPerPage = 100;
+
+        Papa.parse("items_refined.csv", {
+            header: true,
+            download: true,
+            skipEmptyLines: true,
+            complete: function (results) {
+                items = results.data;
+                populateTypeFilter();
+                applyFilter();
+            }
+        });
+
+        function populateTypeFilter() {
+            const typeSelect = document.getElementById("type");
+            const types = [...new Set(items.map(item => item.Type))];
+            types.forEach(t => {
+                const option = document.createElement("option");
+                option.value = t;
+                option.textContent = t;
+                typeSelect.appendChild(option);
+            });
+        }
+
+        function applyFilter() {
+            const slotValue = parseInt(document.getElementById("slots").value);
+            const typeValue = document.getElementById("type").value;
+            const searchValue = document.getElementById("search").value.trim().toLowerCase();
+
+            filteredItems = items.filter(item => {
+                const slotNum = parseInt(item.Slots) || 0;
+                const slotMatch = slotNum >= slotValue;
+                const typeMatch = typeValue === "all" || item.Type === typeValue;
+
+                // Nettoyage des données CSV (important !)
+                const nameLower = (item.Name || "").toString().trim().toLowerCase();
+                const idLower = (item.ID || "").toString().trim().toLowerCase();
+
+                let searchMatch = true;
+                if (searchValue !== "") {
+                    searchMatch =
+                        nameLower.includes(searchValue) ||
+                        idLower.includes(searchValue);
+                }
+
+                return slotMatch && typeMatch && searchMatch;
+            });
+
+            currentPage = 1;
+            renderTable();
+        }
+
+
+
+        function renderTable() {
+            const tbody = document.querySelector("#itemsTable tbody");
+            tbody.innerHTML = "";
+
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = filteredItems.slice(start, end);
+
+            pageItems.forEach(item => {
+                const tr = document.createElement("tr");
+
+                // Colonne ID
+                let tdID = document.createElement("td");
+                tdID.textContent = item.ID;
+                tr.appendChild(tdID);
+
+                // Colonne Name → lien cliquable !
+                let tdName = document.createElement("td");
+                tdName.innerHTML =
+                    `<a href="https://db.irowiki.org/db/item-info/${item.ID}/" target="_blank">${item.Name}</a>`;
+                tr.appendChild(tdName);
+
+                // Les autres colonnes
+                ["Type", "Buy", "Sell", "Weight", "Attack", "Defense", "Slots", "Refineable"].forEach(key => {
+                    const td = document.createElement("td");
+                    td.textContent = item[key];
+                    tr.appendChild(td);
+                });
+
+                tbody.appendChild(tr);
+            });
+
+            document.getElementById("pageInfo").textContent =
+                `Page ${currentPage} / ${Math.ceil(filteredItems.length / itemsPerPage)}`;
+        }
+
+
+        function nextPage() {
+            if (currentPage * itemsPerPage < filteredItems.length) {
+                currentPage++;
+                renderTable();
+            }
+        }
+
+        function prevPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderTable();
+            }
+        }
+    </script>
+</body>
+
+</html>

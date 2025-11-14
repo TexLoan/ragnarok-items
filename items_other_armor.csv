@@ -1,0 +1,213 @@
+﻿ID,Name,Type,Buy,Sell,Weight,Attack,Defense,Slots,Refineable
+2127,Secular Mission,Other Armor,20,10,0.0,0,10,0,Yes
+2132,Shell Of Resistance,Other Armor,20,10,0.0,0,9,0,Yes
+2199,Ahura Mazdah,Other Armor,1,0,1.0,0,100,0,No
+2237,Bandit Beard,Other Armor,2,1,10.0,0,0,0,Yes
+2240,Beard,Other Armor,2,1,10.0,0,0,0,Yes
+2392,Old Green Pantie,Other Armor,0,0,0.0,0,10,0,Yes
+2398,Sniping Suit,Other Armor,20,10,75.0,0,5,1,No
+2415,Bunny Slipper,Other Armor,"34,000","17,000",30.0,0,3,1,No
+2438,Paw Of Cat,Other Armor,10,5,30.0,0,0,0,No
+2448,Air Boss,Other Armor,0,0,50.0,0,2,0,No
+2511,Skeleton Manteau,Other Armor,"5,000","2,500",70.0,0,1,0,No
+2534,Ruffler,Other Armor,20,10,0.0,0,10,0,Yes
+2543,Sylphid Manteau,Other Armor,20,10,0.0,0,9,0,Yes
+2546,Beach Manteau,Other Armor,20,10,60.0,0,0,1,No
+2547,Cheap Undershirt,Other Armor,0,0,0.0,0,8,0,No
+2548,Neo Muffler,Other Armor,0,0,0.0,0,5,0,Yes
+2550,Fisher's Muffler,Other Armor,20,10,20.0,0,0,0,No
+2551,Crest of the Rider,Other Armor,20,10,50.0,0,4,1,No
+2552,Mithril Magic Manteau,Other Armor,20,10,40.0,0,3,1,No
+2641,Fashion Hip Sack,Other Armor,20,10,70.0,0,0,0,Yes
+2646,Bunch of Carnations,Other Armor,2,1,10.0,0,0,0,Yes
+2647,Nile Rose,Other Armor,2,1,10.0,0,0,1,Yes
+2664,Belcarf,Other Armor,20,10,20.0,0,0,0,Yes
+2666,Lantern of Hope,Other Armor,20,10,10.0,0,0,0,Yes
+2668,Woman Glory,Other Armor,0,0,50.0,0,0,0,Yes
+2686,Elven Ears,Other Armor,1,0,0.0,0,2,0,Yes
+2687,Steel Flower,Other Armor,1,0,0.0,0,1,0,Yes
+2694,Rosary,Other Armor,1,0,0.0,0,0,0,Yes
+2696,Vesper Core 01,Other Armor,1,0,0.0,0,1,0,Yes
+2697,Vesper Core 02,Other Armor,1,0,0.0,0,1,0,Yes
+2698,Vesper Core 03,Other Armor,1,0,0.0,0,1,0,Yes
+2699,Vesper Core 04,Other Armor,1,0,0.0,0,1,0,Yes
+2704,Golden Accessories,Other Armor,20,10,10.0,0,4,0,Yes
+2705,Golden Accessories,Other Armor,20,10,10.0,0,4,0,Yes
+2709,5th Anniversary Coin,Other Armor,2,1,0.0,0,0,0,Yes
+2710,Bloody Iron Ball,Other Armor,1,0,0.0,0,0,0,Yes
+2712,Ragnarok Limited Edition,Other Armor,0,0,30.0,0,0,0,Yes
+2713,Certificate,Other Armor,0,0,0.0,0,0,0,Yes
+2714,Marvelous Pendant,Other Armor,0,0,10.0,0,0,1,Yes
+2734,Directive,Other Armor,0,0,0.0,0,1,0,Yes
+2735,Directive,Other Armor,0,0,0.0,0,1,0,Yes
+2738,Shiny Coin,Other Armor,0,0,0.0,0,0,0,Yes
+2739,Ordinary Coin,Other Armor,0,0,0.0,0,0,0,Yes
+2740,Rusty Coin,Other Armor,0,0,0.0,0,0,0,Yes
+2752,Praccsinos,Other Armor,2,1,0.0,0,0,0,Yes
+2775,Lure,Other Armor,20,10,10.0,0,0,0,Yes
+2798,Will Of Exhausted Angel,Other Armor,0,0,20.0,0,0,0,Yes
+2979,Strawberry Decoration,Other Armor,10,5,20.0,0,0,0,Yes
+3881,Ragnarok Limited Edition,Other Armor,0,0,30.0,0,0,1,Yes
+5044,Evil Wing Ears,Other Armor,20,10,35.0,0,2,0,No
+5051,Pussy Cat Bell,Other Armor,20,10,10.0,0,0,0,Yes
+5056,Fruit of Love,Other Armor,1,0,10.0,0,0,0,Yes
+5103,Sunflower Hairpin,Other Armor,20,10,60.0,0,1,0,Yes
+5129,Bird Nest,Other Armor,20,10,40.0,0,1,0,Yes
+5135,Cyclop's Eye,Other Armor,0,0,20.0,0,0,0,Yes
+5145,Carnival Joker Jester,Other Armor,10,5,10.0,0,0,0,No
+5150,Joker Jester,Other Armor,20,10,10.0,0,1,0,Yes
+5152,Chinese Crown,Other Armor,20,10,200.0,0,2,0,No
+5153,Angeling Hairpin,Other Armor,20,10,70.0,0,3,0,No
+5154,Father's Sunglasses,Other Armor,20,10,10.0,0,3,0,Yes
+5155,Father's White Moustache,Other Armor,20,10,10.0,0,0,0,Yes
+5178,Candle,Other Armor,20,10,15.0,0,0,0,No
+5181,Helm of Darkness,Other Armor,20,10,200.0,0,3,1,No
+5186,Geographer Band,Other Armor,20,10,50.0,0,1,0,Yes
+5189,Autumn Leaves,Other Armor,20,10,10.0,0,0,0,No
+5198,Drooping Bunny,Other Armor,10,5,10.0,0,1,0,No
+5200,Coppola,Other Armor,10,5,30.0,0,0,0,No
+5205,Emperor's Laurel Crown,Other Armor,20,10,100.0,0,3,0,No
+5206,Romantic White Flower,Other Armor,20,10,10.0,0,0,0,Yes
+5212,Satellite Hairband,Other Armor,0,0,100.0,0,3,1,No
+5223,Evolved Big Golden Bell,Other Armor,20,10,20.0,0,2,0,No
+5224,Evolved Orc Hero Helm,Other Armor,"500,000","250,000",90.0,0,5,0,No
+5244,Elven Blindfold,Other Armor,20,10,20.0,0,1,0,Yes
+5246,Angelic Helm,Other Armor,20,10,70.0,0,3,0,No
+5247,Satanic Helm,Other Armor,20,10,70.0,0,4,0,No
+5248,Robotic Blindfold,Other Armor,20,10,20.0,0,1,0,Yes
+5249,Human Blindfold,Other Armor,20,10,20.0,0,1,0,Yes
+5250,Robotic Ears,Other Armor,20,10,1.0,0,0,0,Yes
+5251,Round Ears,Other Armor,20,10,1.0,0,0,0,Yes
+5252,Drooping Ninetail,Other Armor,20,10,30.0,0,1,0,No
+5258,Afro Wig,Other Armor,20,10,10.0,0,0,1,No
+5263,Pagdayaw,Other Armor,20,10,10.0,0,1,0,No
+5265,Apple of Archer,Other Armor,1,0,0.0,0,7,0,Yes
+5266,Bunny Band,Other Armor,1,0,0.0,0,9,0,Yes
+5269,Flapping Angel Wing,Other Armor,20,10,30.0,0,1,0,No
+5271,Phoenix Crown,Other Armor,20,10,50.0,0,4,1,No
+5278,Yellow Ribbon,Other Armor,0,0,0.0,0,0,0,Yes
+5279,Refined Drooping Cat,Other Armor,2,1,0.0,0,1,0,Yes
+5280,Baphomet Horns,Other Armor,2,1,0.0,0,5,0,Yes
+5295,Golden Bandana,Other Armor,20,10,240.0,0,4,0,Yes
+5296,Drooping Nine Tail,Other Armor,20,10,30.0,0,1,1,No
+5297,Soul Wing,Other Armor,20,10,30.0,0,2,1,No
+5298,Dokebi's Wig,Other Armor,20,10,10.0,0,1,1,No
+5299,Pagdayaw,Other Armor,20,10,10.0,0,1,1,Yes
+5300,Bullock Helm,Other Armor,20,10,80.0,0,2,0,No
+5301,Victory Hairband,Other Armor,0,0,10.0,0,0,0,No
+5306,Freya's Crown,Other Armor,0,0,50.0,0,12,0,Yes
+5310,Shining Electric Bulb Hairband,Other Armor,20,10,10.0,0,3,1,No
+5313,Diadem,Other Armor,20,10,10.0,0,3,1,No
+5320,Champion Wreath,Other Armor,20,10,50.0,0,4,0,No
+5321,Bandana Merah Putih,Other Armor,0,0,0.0,0,0,0,Yes
+5322,Kerchief,Other Armor,20,10,10.0,0,2,0,No
+5323,Misstrance Crown,Other Armor,20,10,0.0,0,10,0,Yes
+5326,Masquerade C,Other Armor,1,0,0.0,0,1,0,Yes
+5328,Evil Wing Ears C,Other Armor,1,0,0.0,0,2,0,Yes
+5330,kRO Drooping Kitty C,Other Armor,1,0,0.0,0,6,0,Yes
+5331,Corsair C,Other Armor,1,0,0.0,0,10,0,Yes
+5333,Radio Antenna,Other Armor,0,0,150.0,0,2,0,No
+5355,Selendang,Other Armor,0,0,10.0,0,2,0,Yes
+5358,Peco Ears,Other Armor,20,10,10.0,0,1,0,Yes
+5366,Love Dad Bandana,Other Armor,20,10,20.0,0,3,0,No
+5368,White Wing,Other Armor,20,10,10.0,0,2,0,No
+5369,Dark Wing,Other Armor,20,10,10.0,0,1,0,No
+5377,Gentleman's Pipe,Other Armor,20,10,10.0,0,0,0,Yes
+5389,Angel Spirit,Other Armor,20,10,20.0,0,0,0,Yes
+5391,Toast,Other Armor,20,10,0.0,0,0,0,Yes
+5408,Old Bandana,Other Armor,0,0,0.0,0,5,0,Yes
+5412,Sweet Candy,Other Armor,20,10,10.0,0,1,0,Yes
+5417,Crown Parrots,Other Armor,20,10,20.0,0,1,1,Yes
+5419,Leaves Of Grass,Other Armor,20,10,10.0,0,0,0,Yes
+5423,I Love China,Other Armor,20,10,25.0,0,5,0,Yes
+5428,RWC Anniversary Bread Envelope,Other Armor,0,0,10.0,0,0,0,No
+5445,Candy Cane In Mouth,Other Armor,20,10,10.0,0,0,0,Yes
+5455,Decorative Geographer,Other Armor,20,10,50.0,0,1,1,No
+5459,Drooping Bunny,Other Armor,0,0,10.0,0,1,0,No
+5462,Spiked Scarf,Other Armor,20,10,10.0,0,1,0,Yes
+5463,Rainbow Scarf,Other Armor,20,10,10.0,0,1,0,Yes
+5471,Hairband Of Reginleif,Other Armor,20,10,80.0,0,1,0,Yes
+5485,Tiger Face,Other Armor,20,10,100.0,0,3,0,No
+5504,Wedding Weil,Other Armor,20,10,50.0,0,5,0,No
+5511,Samambaia,Other Armor,20,10,20.0,0,5,1,No
+5516,hawk Eyes,Other Armor,10,5,10.0,0,0,0,Yes
+5517,Hawk Eyes,Other Armor,10,5,10.0,0,0,0,Yes
+5518,Gigantic Majestic Goat (DEF),Other Armor,20,10,80.0,0,5,0,No
+5519,Peacock Feather,Other Armor,20,10,80.0,0,4,1,No
+5532,Pirate Dagger,Other Armor,20,10,10.0,0,0,0,No
+5547,RJC Katusa Flower,Other Armor,20,10,20.0,0,1,1,No
+5553,Festival Bunny Band,Other Armor,0,0,0.0,0,7,0,Yes
+5559,Piece Of White Cloth,Other Armor,0,0,0.0,0,1,0,No
+5562,Luxurious Wedding Veil,Other Armor,0,0,50.0,0,0,1,Yes
+5567,Bright Fury,Other Armor,20,10,30.0,0,1,1,No
+5568,Rabbit Bonnet,Other Armor,20,10,100.0,0,1,1,No
+5573,Dokebi Horn,Other Armor,20,10,10.0,0,1,1,No
+5584,Majestic Evil Horns,Other Armor,0,0,40.0,0,1,0,No
+5586,Mosquito Coil,Other Armor,20,10,10.0,0,1,1,No
+5587,Mosquito Coil,Other Armor,0,0,10.0,0,1,0,No
+5597,Bubble Gum In Mouth,Other Armor,20,10,0.0,0,2,0,Yes
+5603,RTC First Place,Other Armor,0,0,25.0,0,8,1,No
+5604,RTC Second Place,Other Armor,0,0,25.0,0,6,1,No
+5605,RTC Third Place,Other Armor,0,0,25.0,0,4,1,No
+5653,Darkness Helm,Other Armor,20,10,50.0,0,3,1,No
+5666,Golden Crown,Other Armor,20,10,50.0,0,8,1,No
+5681,Green Ribbon,Other Armor,800,400,10.0,0,1,0,No
+5683,Baphomet Horns,Other Armor,20,10,10.0,0,5,0,No
+5684,Ornate Crown,Other Armor,20,10,10.0,0,5,0,No
+5687,Orc Helm,Other Armor,20,10,10.0,0,5,0,No
+5691,Sailor's Bandana,Other Armor,20,10,1.0,0,1,0,No
+5741,Eternal Egg Shell,Other Armor,20,10,0.0,0,1,0,No
+5781,Persika,Other Armor,20,10,10.0,0,0,1,Yes
+5786,Ancient Elven Ear,Other Armor,10,5,20.0,0,1,0,Yes
+5793,Ribbon Of Life,Other Armor,20,10,0.0,0,2,0,Yes
+5794,3D Glasses,Other Armor,20,10,0.0,0,1,0,Yes
+5796,Cheer Scarf,Other Armor,0,0,0.0,0,0,0,Yes
+5797,Cheer Scarf2,Other Armor,0,0,0.0,0,0,0,Yes
+5798,Cheer Scarf3,Other Armor,0,0,0.0,0,0,0,Yes
+5799,Cheer Scarf4,Other Armor,0,0,0.0,0,0,0,Yes
+5800,Blush of Groom,Other Armor,20,10,5.0,0,0,0,Yes
+5801,Red Tailed Ribbon,Other Armor,20,10,10.0,0,5,0,No
+5805,Victorious Coronet,Other Armor,0,0,15.0,0,1,0,Yes
+5817,Valentine Pledge,Other Armor,20,10,0.0,0,3,0,Yes
+5821,Gold Tulip Hairpin,Other Armor,10,5,10.0,0,2,0,No
+5846,Buzzy Ball Gum,Other Armor,50,25,10.0,0,1,0,Yes
+5851,Summer Knight,Other Armor,20,10,0.0,0,1,0,Yes
+15001,Odin's Blessing,Other Armor,0,0,0.0,0,10,0,Yes
+15210,Rental Surfer Swimsuit,Other Armor,0,0,0.0,0,0,0,Yes
+18500,Cheer Scarf6,Other Armor,0,0,0.0,0,0,0,Yes
+18501,Cheer Scarf8,Other Armor,0,0,0.0,0,0,0,Yes
+18502,Cheer Scarf10,Other Armor,0,0,0.0,0,0,0,Yes
+18503,Small Devil Horns,Other Armor,20,10,10.0,0,2,0,Yes
+18510,Bloody Angel Wings,Other Armor,0,0,0.0,0,1,0,Yes
+18511,Bloody Angel Wing Ears,Other Armor,0,0,0.0,0,1,0,Yes
+18559,Fafunirusukin,Other Armor,20,10,10.0,0,3,0,Yes
+18560,Fafunirumasuku,Other Armor,20,10,30.0,0,2,0,Yes
+18741,Will O Wisp,Other Armor,20,10,0.0,0,0,0,Yes
+18744,Twilight,Other Armor,20,10,0.0,0,0,0,Yes
+19402,Group of Stars,Other Armor,0,0,0.0,0,0,0,Yes
+19500,T Mr Smile,Other Armor,0,0,0.0,0,0,0,Yes
+19501,T Spinx Helm,Other Armor,0,0,0.0,0,0,1,Yes
+19504,T Sunglasses,Other Armor,0,0,0.0,0,0,0,Yes
+19505,T Cigarette,Other Armor,0,0,0.0,0,0,0,Yes
+19506,T Valkyrie Feather Band,Other Armor,0,0,0.0,0,0,0,No
+19589,C Fallen Angel Lost J,Other Armor,0,0,0.0,0,0,0,Yes
+19871,Decoration of Music,Other Armor,20,10,0.0,0,0,0,Yes
+20727,Brilliant Golden Wings,Other Armor,0,0,0.0,0,0,0,Yes
+31064,Ribbon,Other Armor,0,0,0.0,0,0,0,Yes
+31192,Blue Cat Ears,Other Armor,0,0,0.0,0,0,0,Yes
+31313,C_FallenAngelWingEar,Other Armor,0,0,0.0,0,0,0,Yes
+31314,C_Ghost_Holiday,Other Armor,0,0,0.0,0,0,0,Yes
+31407,Alice_Wig_PK,Other Armor,0,0,0.0,0,0,0,Yes
+31415,C_Wanderer_Sakkat,Other Armor,0,0,0.0,0,0,0,Yes
+31483,C_CatEarRibbon_TW,Other Armor,0,0,0.0,0,0,0,Yes
+31498,C_Elephangel_TH,Other Armor,0,0,0.0,0,0,0,Yes
+31574,C_Cyber_Income,Other Armor,0,0,0.0,0,0,0,Yes
+31614,C_Fox,Other Armor,0,0,0.0,0,0,0,Yes
+31624,Heart Of Cat,Other Armor,0,0,0.0,0,0,0,Yes
+31625,C_Protect_Cloth,Other Armor,0,0,0.0,0,0,0,Yes
+52290,Shinobi Sash,Other Armor,"20,000","10,000",30.0,0,1,1,Yes
+410151,Migration Muffler,Other Armor,0,0,40.0,0,2,0,Yes
+410154,Migration Tights,Other Armor,0,0,50.0,0,6,0,Yes
+411962,Elite Archer Suit (Rental),Other Armor,1,0,0.0,0,3,0,Yes
+411969,Elite Shooter Suit (Rental),Other Armor,1,0,0.0,0,3,0,Yes
+440009,C_Black_Moon_Cat_kr,Other Armor,0,0,0.0,0,0,0,Yes
